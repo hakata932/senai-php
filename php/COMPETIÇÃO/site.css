@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(3,184,191);
+    background: linear-gradient(90deg, rgba(3,184,191,1) 0%, rgba(84,159,195,1) 35%, rgba(109,213,255,1) 100%);
+}
+#espaco{
+    font-family: Archivo Black;
+    background-color: rgb(56, 108, 168);
+    color: white;
+    padding-left: 100px;
+    font-size: 18px;
+}
+#centro2{
+    text-align: center;
+}
+form{
+    display: flex;
+    margin: 300px;
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    color: #201f1f;
+}
+input{
+    padding: 14px 8px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+}
+button{
+    padding: 10px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(0, 162, 255);
+    color: #ffffff;
+}
+button:hover{
+    background-color: rgb(25, 0, 255);
+    transition: 0.2s;
+}
+#centro{
+    border-radius: 20px;
+    gap: 20px;
+    background-color: #ffffff;
+    margin-top: 170px;
+    width: 750px;
+    height: 500px;
+    padding: 10px;
+}
+span{
+    font-family: Archivo black;
+    font-size: 10px;
+}
+#p{
+    font-family: Dancing Script;
+    font-size: 19px;
+}
