@@ -1,7 +1,7 @@
 <?php 
 //$_GET["nome"]; para pegar a string com o nome digitável;
 
-if(isset($_GET["nome"])){ //isset verifica se a variável existe, nesse caso para pegaro que for inserido na string 'nome';
+if(isset($_GET["nome"])){ //isset verifica se a variável existe, nesse caso para pegar o que for inserido na string 'nome';
     echo $_GET["nome"];
 } else{
     echo "erro";
